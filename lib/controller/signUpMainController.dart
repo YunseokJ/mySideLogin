@@ -79,27 +79,27 @@ class SignUpMainController extends GetxController {
   }
 
   void onListenName() {
-    emailTextField.onListenTextFieldType1();
+    nameTextField.onListenTextFieldType1();
     update();
   }
 
   void onListenPhone() {
-    emailTextField.onListenTextFieldType1();
+    phoneTextField.onListenTextFieldType1();
     update();
   }
 
   void onListenRePhone() {
-    emailTextField.onListenTextFieldType1();
+    rephoneTextField.onListenTextFieldType1();
     update();
   }
 
   void onListenPswd() {
-    emailTextField.onListenTextFieldType1();
+    pswdTextField.onListenTextFieldType1();
     update();
   }
 
   void onListenRePswd() {
-    emailTextField.onListenTextFieldType1();
+    repswdTextField.onListenTextFieldType1();
     update();
   }
 

@@ -16,6 +16,7 @@ import 'package:mysideyunseok/myPageScreens/addHealthDataPage.dart';
 import 'package:mysideyunseok/myPageScreens/checkPswdPage.dart';
 import 'package:mysideyunseok/myPageScreens/healthDataListPage.dart';
 import 'package:mysideyunseok/myPageScreens/myPageMain.dart';
+import 'package:mysideyunseok/myPageScreens/phoneChangePage.dart';
 import 'package:mysideyunseok/myPageScreens/profileModifyPage.dart';
 
 void main() {
@@ -45,7 +46,7 @@ class MyApp extends StatelessWidget {
           primaryColor: Color(0xFF3BD7E2),
           visualDensity: VisualDensity.adaptivePlatformDensity,
           canvasColor: Colors.white),
-      home: CheckPswdPage(),
+      home: PhoneChangePage(),
     );
   }
 }
